@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+body {
+  /* background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%); */
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; */
+  background-image: url(https://images.unsplash.com/photo-1495364141860-b0d03eccd065?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  /* #cfe8e4; */
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 80px;
+}
+.all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.container {
+  background-color: #fff;
+  width: 700px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+
+}
+.header h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+  font-weight: normal;
+}
+ul li {
+  list-style: none;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.btn {
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: rgb(174 6 222);
+  color: #ffffff;
+
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0px;
+  align-items: center;
+}
+.btn:hover {
+  background-color: rgb(132, 18, 163);
+}
+input:hover {
+  cursor: pointer;
+  background-color: #f1dfd1;
+background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+}
+.options{
+  cursor: pointer;
+  font-size: 30px;
+}
+h2{
+  text-align: center;
+  font-size: 50px;
+  color: #000000;
+}
+button{
+  display: flex;
+  margin: 20px auto;
+  
+  justify-content: center;
+  width: 140px;
+  height: 60px;
+  padding: 10px;
+  font-size: 32px;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(201, 195, 195, 0.2);
+  background-color: red;
+  color: #fdfdfd;
+
+}
